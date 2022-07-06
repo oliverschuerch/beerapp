@@ -1,0 +1,50 @@
+@import './variables.scss';
+
+body {
+  position: relative;
+  background-color: $body-bg;
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  color: $body-color;
+  
+  &:before {
+    display: block;
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: no-repeat center center url('@/../public/images/beer-bg.jpg');
+    background-size: cover;
+    filter: blur(3px) saturate(0.75);
+    z-index: 1;
+  }
+}
+
+h1 {
+  margin: 0;
+  font-size: $h1-font-size;
+  letter-spacing: 0.1rem;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  
+  &:hover {
+    color: inherit;
+    text-decoration: underline;
+  }
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  text-align: center;
+  z-index: 2;
+}
