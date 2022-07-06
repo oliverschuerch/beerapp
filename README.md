@@ -1,5 +1,7 @@
 # bierapp
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0e916b2f-4051-42c8-91a7-dc7d941b505a/deploy-status)](https://app.netlify.com/sites/os-beerapp/deploys)
+
 ## Project setup
 ```
 npm install
