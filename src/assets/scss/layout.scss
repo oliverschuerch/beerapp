@@ -41,10 +41,10 @@ a {
 #app {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
   z-index: 2;
 }

@@ -35,7 +35,6 @@ export default {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
   background-color: rgba(#fff, 0.25);
 
   > div {

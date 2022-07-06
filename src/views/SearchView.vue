@@ -131,6 +131,7 @@ export default {
 
 <style lang="scss">
 .search-view {
+  align-self: center;
   padding: 2vh 10vw 18vh;
 
   h1, p {
