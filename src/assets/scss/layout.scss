@@ -12,7 +12,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background: no-repeat center center url('@/../public/images/beer-bg.jpg');
+    background: no-repeat center center url('@/assets/images/beer-bg.jpg');
     background-size: cover;
     filter: blur(3px) saturate(0.75);
     z-index: 1;
